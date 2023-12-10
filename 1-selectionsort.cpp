@@ -11,7 +11,8 @@ void swap(int &a, int &b)  //troca o conteúdo de a e b
   b = temp;
 }
 
-void display(int *array, int size) {
+// Display para mostrar os valores.
+void display(int *array, int size) { 
   for(int i = 0; i < size; i++) 
     cout << array[i] << " ";
   cout << endl;
